@@ -22,14 +22,14 @@ if (Cal.operators === "Addition") {
     console.log(`The Sum of ${Cal.firstNumber} and ${Cal.secondNumber} is ${Cal.firstNumber + Cal.secondNumber}`);
 }
 //-----------Subtraction----------
-if (Cal.operators === "Subtraction") {
+else if (Cal.operators === "Subtraction") {
     console.log(`The Difference of ${Cal.firstNumber} and ${Cal.secondNumber} is ${Cal.firstNumber - Cal.secondNumber}`);
 }
 //-----------Multiplication--------
-if (Cal.operators === "Multiplication") {
+else if (Cal.operators === "Multiplication") {
     console.log(`The Product of ${Cal.firstNumber} and ${Cal.secondNumber} is ${Cal.firstNumber * Cal.secondNumber}`);
 }
 //----------=Division---------------
-if (Cal.operators === "Divison") {
+else {
     console.log(`The Quotient of ${Cal.firstNumber} and ${Cal.secondNumber}  is ${Cal.firstNumber / Cal.secondNumber}`);
 }
